@@ -19,7 +19,7 @@ const getColorFromCount = count => {
   return "gray";
 };
 
-fetch("./get-latest.json")
+fetch("get-latest.json")
   .then(response => response.json())
   .then(data => {
     // const places = data.places;
